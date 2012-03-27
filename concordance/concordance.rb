@@ -56,6 +56,8 @@ class Concordance
     end
     file.close
     
+    puts "total words: #{results.values.flatten.size}\n\n"
+    
   end
 end
 
